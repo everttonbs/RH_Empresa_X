@@ -13,9 +13,7 @@ class Employer(models.Model):
     # cpf = 
     # phone =
     # date_started =
-    # dados bancários
-
-    
+    # dados bancários  
     
     file_docs = models.FileField(upload_to='uploads/docs', blank=True)
     # photo_file = models.ImageField(upload_to= 'uploads/photo')

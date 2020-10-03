@@ -5,5 +5,5 @@ from .models import *
 # Create your views here.
 
 def hello(request):
-    return HttpResponse('Bem vindo!!')
+    return HttpResponse('Bem vindo ao Sistema de Recursos Humanos!!')
     
