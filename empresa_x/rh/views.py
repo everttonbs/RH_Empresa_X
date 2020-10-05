@@ -7,3 +7,8 @@ from .models import *
 def hello(request):
     return HttpResponse('Bem vindo ao Sistema de Recursos Humanos!!')
     
+
+def cadastro(request):
+    return render(request, 'rh/index.html')
+
+
